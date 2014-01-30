@@ -1,0 +1,19 @@
+.border-top {
+	border-top: 1px dashed black;
+}
+
+.border-bottom {
+	border-bottom: 1px dashed black;
+}
+
+.border-left {
+	border-left: 1px dashed black;
+}
+
+.border-right {
+	border-right: 1px dashed black;
+}
+
+.sudoku_guess {
+	width: 15px;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="sudoku-runner">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="sudoku-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sudoku/sudoku">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sudoku-basic-value-generator-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sudoku-basic-value-generator/sudoku-basic-value-generator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sudoku-common-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sudoku-common/sudoku-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sudoku-events-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sudoku-events/sudoku-events">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sudoku-numbers-generator-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sudoku-numbers-generator/sudoku-numbers-generator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="sudoku-runner"/>
+        <property name="java-output-path" value="/sudoku-runner/build/classes"/>
+    </wb-module>
+</project-modules>
